@@ -8,6 +8,7 @@ Taste-y: Überprüfung des ersten Keplerschen Gesetzes mit der ersten Methode.
 Taste-x: Überprüfung des zweiten Keplerschen Gesetzes an der Erde.
 Taste-c: Überprüfung des ersten Keplerschen Gesetzes mit der zweiten Methode.
 Taste-v: Überprüfung des zweiten Keplerschen Gesetzes am viktiven Planeten.
+Taste-q: Animationsfenster schliessen.
 
 Quellenangabe: Die Grundstruktur dieses Programmes wurde aus dem Buch "Physik mit Python, Kapitel 7. Dynamik des Massenpunkts" genommen. 
 Oliver, Matt.: Physik mit Python Simulationen, Visualisierungen und Animationen von Anfang an. Springer Spektrum: Berlin 2022 2. Auflage.
