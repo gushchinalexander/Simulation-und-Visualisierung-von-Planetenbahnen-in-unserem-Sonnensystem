@@ -167,6 +167,9 @@ t_magenta = 0
 flächen_rot = []
 flächen_magenta = []
 
+flächen_grau = []
+flächen_schwarz = []
+
 def kepler2_analyse(event):
     if event.key == 'a':
         differenzen = []
@@ -177,6 +180,9 @@ def kepler2_analyse(event):
 
             proz_diff = (diff / rot) * 100
             proz_differenzen.append(proz_diff)
+        print(len(flächen_grau))
+        print("dif: ", np.mean(differenzen))
+        print("dif proz: ", np.mean(proz_differenzen))
 
 fig.canvas.mpl_connect('key_press_event', kepler2_analyse)
 
@@ -292,9 +298,6 @@ strecke_schwarz = 0
 
 t_grau = 0
 t_schwarz = 0
-
-flächen_grau = []
-flächen_schwarz = []
 
 def add_point_fiktiv(event):
     global kp2_punkte_fiktiv, fläche_grau, fläche_schwarz, strecke_grau, strecke_schwarz, t_grau, t_schwarz
