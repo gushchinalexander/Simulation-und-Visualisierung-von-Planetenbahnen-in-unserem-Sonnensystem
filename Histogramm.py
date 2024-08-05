@@ -19,7 +19,6 @@ abweichung_m2 = [x - theoretischer_wert for x in methode2]
 std_abweichung_m1 = np.sqrt(np.mean(np.array(abweichung_m1) ** 2))
 std_abweichung_m2 = np.sqrt(np.mean(np.array(abweichung_m2) ** 2))
 
-# Ergebnisse ausdrucken
 print(f"Methode 1: Mittelwert = {mittelwert_m1}, Standardabweichung = {std_m1}")
 print(f"Methode 2: Mittelwert = {mittelwert_m2}, Standardabweichung = {std_m2}")
 print(f"Methode 1: Standardabweichung vom theoretischen Wert = {std_abweichung_m1}")
