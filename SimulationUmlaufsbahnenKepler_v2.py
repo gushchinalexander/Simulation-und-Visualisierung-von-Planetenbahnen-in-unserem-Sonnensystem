@@ -78,7 +78,7 @@ if r_aphel < AE:
 else:
     r = r_aphel
 
-# Fiktive planet startet im Aphel oder Perihel
+# Fiktive Planet startet im Aphel oder Perihel
 if abs(r_aphel / AE - abstand) < abs(r_perihel / AE - abstand):
     # Startposition ist im Aphel
     r_bp = (r_aphel - a) * 2
@@ -152,7 +152,6 @@ ax.add_patch(poly_rot)
 ax.add_patch(poly_magenta)
 
 # Variablen und Listen
-
 eck_rot = [(0,0)]
 eck_magenta = [(0,0)]
 
