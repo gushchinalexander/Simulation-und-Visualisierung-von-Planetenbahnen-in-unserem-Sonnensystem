@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 methode1 = []
 methode2 = []
-theoretischer_wert = 2.1227316882505662
+theoretischer_wert = 123
 
 mittelwert_m1 = np.mean(methode1)
 mittelwert_m2 = np.mean(methode2)
